@@ -408,9 +408,6 @@
     }
 
     btnAdd.addEventListener('click', addTodo);
-    newTodoInput.addEventListener('keydown', e => {
-      if (e.key === 'Enter') addTodo();
-    });
 
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
